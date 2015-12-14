@@ -1,5 +1,6 @@
 <resources>
 
+    <style name="AppTheme.StatusBarTransparent" parent="AppTheme" />
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
