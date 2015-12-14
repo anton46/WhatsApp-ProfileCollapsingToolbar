@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.StatusBarTransparent" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:colorControlHighlight">@android:color/transparent</item> 
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+    </style>
+
+</resources>
