@@ -61,7 +61,6 @@ public class WhatsappHeaderBehavior extends CoordinatorLayout.Behavior<HeaderVie
 
         childPosition = childPosition - mStartMarginBottom * (1f - percentage);
 
-
         CoordinatorLayout.LayoutParams lp = (CoordinatorLayout.LayoutParams) child.getLayoutParams();
         if (Math.abs(dependency.getY()) >= maxScroll / 2) {
             float layoutPercentage = (Math.abs(dependency.getY()) - (maxScroll / 2)) / Math.abs(maxScroll / 2);
